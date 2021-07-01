@@ -2,7 +2,7 @@
   "name": "fk",
   "homepage": "https://github.com/Mamba-House/ems",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/data-grid": "^4.0.0-alpha.31",
