@@ -20,7 +20,7 @@ const Router = () => {
 
   return (
     <Switch>
-      <Route  path="/" component={SignIn} />
+      <Route  exact path="/" component={SignIn} />
       <ProtectedRoute exact path="/home" component={Home} />
 
       <ProtectedRoute exact path="/employees" component={Employees} />

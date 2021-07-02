@@ -1,6 +1,5 @@
 {
   "name": "fk",
-  "homepage": "https://github.com/Mamba-House/ems",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -22,9 +21,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
-        "start": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
